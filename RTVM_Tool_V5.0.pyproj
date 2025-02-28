@@ -24,6 +24,7 @@
     <Compile Include="rtvm\compair-tool.py" />
     <Compile Include="rtvm\config-module.py" />
     <Compile Include="rtvm\dependency-manager.py" />
+    <Compile Include="rtvm\gui\main_app.py" />
     <Compile Include="rtvm\improved-rtvm-tool.py" />
     <Compile Include="rtvm\logger-setup.py" />
     <Compile Include="rtvm\pattern-dialog.py" />
@@ -32,13 +33,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="rtvm\" />
+    <Folder Include="rtvm\gui\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="rtvm\disagreement-manager.txt" />
-    <Content Include="rtvm\pie-chart-window.txt" />
-    <Content Include="rtvm\removal-tool %281%29.txt" />
-    <Content Include="rtvm\removal-tool.txt" />
-    <Content Include="rtvm\subset-manager.txt" />
+    <Content Include="rtvm\disagreement-manager.py" />
+    <Content Include="rtvm\pie-chart-window.py" />
+    <Content Include="rtvm\removal-tool.py" />
+    <Content Include="rtvm\subset-manager.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
